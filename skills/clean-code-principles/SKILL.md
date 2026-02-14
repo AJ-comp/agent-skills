@@ -15,6 +15,8 @@ A collection of principles and patterns for writing clean, readable, and maintai
 - Discussing code quality improvements
 
 > **Note:** The principles and rules in each document apply to all programming languages. Examples are shown in a specific language for concreteness, but the patterns themselves are language-agnostic.
+>
+> **Important:** When refactoring, remove comments that are no longer relevant to the changed code. However, comments that are still valid and provide useful context (e.g., *why* a decision was made, business rules, workarounds, warnings) must be preserved.
 
 ## Principles Overview
 
