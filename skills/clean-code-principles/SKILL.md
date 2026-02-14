@@ -14,11 +14,18 @@ A collection of principles and patterns for writing clean, readable, and maintai
 - Reviewing code for readability
 - Discussing code quality improvements
 
+> **Note:** The principles and rules in each document apply to all programming languages. Examples are shown in a specific language for concreteness, but the patterns themselves are language-agnostic.
+
 ## Principles Overview
 
 | Principle | Description | Reference |
 | --- | --- | --- |
 | Guard Clause Pattern | Fail fast with early returns, keep code flat | `guard-clause-pattern.md` |
+| Function Decomposition | Break large functions into small, focused units | `function-decomposition.md` |
+| Magic Numbers & Strings | Replace unexplained literals with named constants or enums | `magic-numbers-and-strings.md` |
+| DRY Principle | Eliminate duplicated logic with shared abstractions | `dry-principle.md` |
+| Conditional Simplification | Reduce complex branching into clear, readable conditions | `conditional-simplification.md` |
+| Boolean & Flag Parameters | Replace boolean params with enums, methods, or option objects | `boolean-and-flag-parameters.md` |
 
 ## Core Philosophy
 
